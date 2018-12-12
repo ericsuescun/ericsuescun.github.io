@@ -10,144 +10,322 @@
 }
 
 .foto {
-	vertical-align: middle;
-	display: inline-block;
+		vertical-align: middle;
+		display: none;
+	}
 
+@media (min-width: 768px) {
+	.foto {
+		vertical-align: middle;
+		display: inline-block;
+	}
 }
 
 .container {
-	width: 992px;
+	/*width: 992px;*/
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: middle;
 	background-color: white;
 }
 
+@media (min-width: 768px) {
+	.container {
+		width: 992px;
+		margin-left: auto;
+		margin-right: auto;
+		vertical-align: middle;
+		background-color: white;
+	}
+}
+
 .container2 {
-	width: 992px;
-	padding: 20px;
-	padding-right: 40px;
+	/*width: 992px;*/
+	width: 600px;
+	/*padding: 20px;*/
+	/*padding: 10px;*/
+	/*padding-right: 40px;*/
+	padding-right: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: middle;
 	background-color: white;
 	font-family: 'Wire One', sans-serif;
-	/*text-align: justify;*/
 	color: #505050;
 }
 
+@media (min-width: 768px) {
+	.container2 {
+		width: 992px;
+		padding: 20px;
+		padding-right: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		vertical-align: middle;
+		background-color: white;
+		font-family: 'Wire One', sans-serif;
+		color: #505050;
+	}
+}
+
 .container2 h2 {
-	letter-spacing: 5px;
+	/*letter-spacing: 5px;*/
+}
+
+@media (min-width: 768px) {
+	.container2 h2 {
+		letter-spacing: 5px;
+	}
 }
 
 #perfil {
-	padding-right: 20px;
+	/*padding-right: 20px;*/
 	text-align: justify;
 }
 
+@media (min-width: 768px) {
+	#perfil {
+		padding-right: 20px;
+		text-align: justify;
+	}
+}
+
 #educacion {
-	padding-left: 20px;
+	/*padding-left: 20px;*/
+}
+
+@media (min-width: 768px) {
+	#educacion {
+		padding-left: 20px;
+	}
 }
 
 .nombres {
-	width: 72%;
+	width: 49%;
 	vertical-align: middle;
 	text-align: center;
 	display: inline-block;
 	margin: 0px;
+	padding: 0px;
+	border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+	.nombres {
+		width: 72%;
+		vertical-align: middle;
+		text-align: center;
+		display: inline-block;
+		margin: 0px;
+	}	
 }
 
 #name {
 	font-family: 'Anaheim', sans-serif;
-	font-size: 100px;
+	/*font-size: 100px;*/
+	font-size: 30px;
 	letter-spacing: 7px;
 	color: #303030;
 }
 
+@media (min-width: 768px) {
+	#name {
+		font-family: 'Anaheim', sans-serif;
+		font-size: 100px;
+		letter-spacing: 7px;
+		color: #303030;
+	}
+}
+
 #lastName {
 	font-family: 'Wire One', sans-serif;
-	font-size: 90px;
-	letter-spacing: 10px;
+	/*font-size: 90px;*/
+	font-size: 45px;
+	letter-spacing: 8px;
 	color: #505050;
+}
+
+@media (min-width: 768px) {
+	#lastName {
+		font-family: 'Wire One', sans-serif;
+		font-size: 90px;
+		letter-spacing: 10px;
+		color: #505050;
+	}	
 }
 
 .datosUp {
-	padding-top: 3px;
+	/*padding-top: 3px;
 	padding-bottom: 5px;
-	padding-left: 30px;
-	background-color: #F0F0F0;
+	padding-left: 30px;*/
+	/*background-color: #F0F0F0;*/
 	color: #505050;
 	vertical-align: middle;
-	width: 26%;
+	text-align: right;
+	list-style: none;
 	font-size: 13px;
-	letter-spacing: 2px;
+	padding: 0px;
+	margin-right: 0px;
+	width: 49%;
+	/*letter-spacing: 2px;*/
 	display: inline-block;
-	margin: 0px;
+	/*margin: 0px;*/
+	border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+	.datosUp {
+/*		padding-top: 3px;
+		padding-bottom: 5px;
+		padding-left: 30px;*/
+/*		background-color: #F0F0F0;*/
+		color: #505050;
+		vertical-align: middle;
+		width: 26%;
+		font-size: 13px;
+		text-align: right;
+		list-style: none;
+		letter-spacing: 2px;
+		display: inline-block;
+		margin: 0px;
+	}
+
 }
 
 .datosDn {
-	padding-top: 5px;
+	/*padding-top: 5px;
 	padding-bottom: 5px;
-	padding-left: 30px;
-	background-color: #D0D0D0;
+	padding-left: 30px;*/
+	/*background-color: #D0D0D0;*/
 	color: #505050;
 	vertical-align: middle;
-	width: 26%;
+	/*width: 26%;*/
+	text-align: right;
+	list-style: none;
 	font-size: 13px;
-	letter-spacing: 2px;
+	border: 1px solid black;
+	padding: 0px;
+	/*margin: 0px;*/
+/*	margin-top: 5px;
+	margin-bottom: 5px;*/
+	font-size: 13px;
+	/*letter-spacing: 2px;*/
+	padding: 0px;
+	margin-right: 0px;
+	width: 49%;
 	display: inline-block;
 	margin: 0px;
 }
 
+
+@media (min-width: 768px) {
+	.datosDn {
+/*		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 30px;*/
+/*		background-color: #D0D0D0;*/
+		color: #505050;
+		vertical-align: middle;
+		width: 26%;
+		font-size: 13px;
+		text-align: right;
+		letter-spacing: 2px;
+		display: inline-block;
+		margin: 0px;
+	}
+}
+
 .nombresDatosUp {
-	/*background-color: #0080FF;*/
 	background-color: #D0D0D0;
+	border: 1px solid black;
+	padding: 0px;
 }
 
 .nombresDatosDown {
-	/*background-color: #00B0FF;*/
 	background-color: #F0F0F0;
+/*	padding-top: 10px;
+	padding-bottom: 10px;*/
 }
 
 .ambosNombresDatos {
 	vertical-align: middle;
-	display: inline-block;
-	width: 79%;
+	/*display: inline-block;*/
+	/*width: 79%;*/
+}
+
+@media (min-width: 768px) {
+	.ambosNombresDatos {
+		vertical-align: middle;
+		display: inline-block;
+		width: 79%;
+	}
 }
 
 .mitades {
 	vertical-align: top;
-	display: inline-block;
-	width: 49.8%;
+	/*display: inline-block;*/
+	/*width: 49.8%;*/
 	list-style-type: circle;
 
+}
+
+@media (min-width: 768px) {
+	.mitades {
+		vertical-align: top;
+		display: inline-block;
+		width: 49.8%;
+		list-style-type: circle;
+	}
 }
 
 .distribucion {
 	vertical-align: top;
 	display: inline-block;
-	/*width: 49.8%;*/
-	width: 33%;
+	width: 49%;
 	list-style-type: circle;
-	/*text-align: justify;*/
+}
+
+
+@media (min-width: 768px) {
+	.distribucion {
+		vertical-align: top;
+		display: inline-block;
+		width: 33%;
+		list-style-type: circle;
+	}
 }
 
 .distribucion2 {
 	vertical-align: top;
 	display: inline-block;
-	/*width: 49.8%;*/
-	width: 33%;
+	width: 49%;
 	list-style: none;
-	/*text-align: justify;*/
+}
+
+@media (min-width: 768px) {
+	.distribucion2 {
+		vertical-align: top;
+		display: inline-block;
+		width: 33%;
+		list-style: none;
+	}
 }
 
 .distribucion3 {
 	vertical-align: top;
 	display: inline-block;
-	/*width: 49.8%;*/
-	width: 24%;
+	width: 49%;
 	list-style: none;
-	/*text-align: justify;*/
+}
+
+@media (min-width: 768px) {
+	.distribucion3 {
+		vertical-align: top;
+		display: inline-block;
+		width: 24%;
+		list-style: none;
+	}
 }
 
 .distribucion li {
@@ -173,7 +351,14 @@
 
 .mitades h2 {
   margin-left: 0px;
-  letter-spacing: 5px;
+  /*letter-spacing: 5px;*/
+}
+
+@media (min-width: 768px) {
+	.mitades h2 {
+	  margin-left: 0px;
+	  letter-spacing: 5px;
+	}
 }
 
 #experienciaProfesional, #referenciasPersonales {
@@ -185,7 +370,13 @@
 }
 
 #referenciasLaborales h3 {
-	letter-spacing: 4px;
+	/*letter-spacing: 4px;*/
+}
+
+@media (min-width: 768px) {
+	#referenciasLaborales h3 {
+		letter-spacing: 4px;
+	}
 }
 
 #referenciasPersonales h3 {
