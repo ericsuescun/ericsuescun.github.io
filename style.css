@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#photo {
+	vertical-align: middle;
+    width: 204px;
+    height: 218px;
+}
+
+.foto {
+	vertical-align: middle;
+	display: inline-block;
+
+}
+
+.container {
+	width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	background-color: white;
+}
+
+.container2 {
+	width: 992px;
+	padding: 20px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	background-color: white;
+	font-family: 'Wire One', sans-serif;
+	/*text-align: justify;*/
+	color: #505050;
+}
+
+.container2 h2 {
+	letter-spacing: 5px;
+}
+
+#perfil {
+	padding-right: 20px;
+	text-align: justify;
+}
+
+#educacion {
+	padding-left: 20px;
+}
+
+.nombres {
+	width: 72%;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	margin: 0px;
+}
+
+#name {
+	font-family: 'Anaheim', sans-serif;
+	font-size: 100px;
+	letter-spacing: 7px;
+	color: #303030;
+}
+
+#lastName {
+	font-family: 'Wire One', sans-serif;
+	font-size: 90px;
+	letter-spacing: 10px;
+	color: #505050;
+}
+
+.datosUp {
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	background-color: #F0F0F0;
+	color: #505050;
+	vertical-align: middle;
+	width: 26%;
+	font-size: 13px;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin: 0px;
+}
+
+.datosDn {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	background-color: #D0D0D0;
+	color: #505050;
+	vertical-align: middle;
+	width: 26%;
+	font-size: 13px;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin: 0px;
+}
+
+.nombresDatosUp {
+	/*background-color: #0080FF;*/
+	background-color: #D0D0D0;
+}
+
+.nombresDatosDown {
+	/*background-color: #00B0FF;*/
+	background-color: #F0F0F0;
+}
+
+.ambosNombresDatos {
+	vertical-align: middle;
+	display: inline-block;
+	width: 79%;
+}
+
+.mitades {
+	vertical-align: top;
+	display: inline-block;
+	width: 49.8%;
+	list-style-type: circle;
+
+}
+
+.distribucion {
+	vertical-align: top;
+	display: inline-block;
+	/*width: 49.8%;*/
+	width: 33%;
+	list-style-type: circle;
+	/*text-align: justify;*/
+}
+
+.distribucion2 {
+	vertical-align: top;
+	display: inline-block;
+	/*width: 49.8%;*/
+	width: 33%;
+	list-style: none;
+	/*text-align: justify;*/
+}
+
+.distribucion3 {
+	vertical-align: top;
+	display: inline-block;
+	/*width: 49.8%;*/
+	width: 24%;
+	list-style: none;
+	/*text-align: justify;*/
+}
+
+.distribucion li {
+	margin-left: 20px;
+}
+
+/*.distribucion:nth-child(odd) {
+	background-color: #F0F0F0;
+}*/
+
+/*tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}*/
+
+.mitades ul li {
+  background: #D0D0D0;
+  margin-left: 20px;
+}
+
+.mitades ul {
+	padding-left: 0px;
+}
+
+.mitades h2 {
+  margin-left: 0px;
+  letter-spacing: 5px;
+}
+
+#experienciaProfesional, #referenciasPersonales {
+	background-color: #F0F0F0;
+}
+
+#referenciasLaborales {
+	background-color: #D0D0D0;
+}
+
+#referenciasLaborales h3 {
+	letter-spacing: 4px;
+}
+
+#referenciasPersonales h3 {
+	letter-spacing: 1px;
+}
+
