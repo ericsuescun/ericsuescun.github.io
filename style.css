@@ -15,11 +15,22 @@ span {
 
 .headerOne {
 	/*border: 5px solid red;*/
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	display: flex;
+	/*display: flex;*/
 	justify-content: all;
+}
+
+@media (min-width: 1280px) {
+	.headerOne {
+		/*border: 5px solid red;*/
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: all;
+	}
 }
 
 .names {
@@ -59,12 +70,24 @@ span {
 
 .headerTitle {
 	/*border: 5px solid red;*/
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	display: flex;
+	/*display: flex;*/
 	justify-content: all;
 	/*background-color: #F0F0F0;*/
+}
+
+@media (min-width: 1280px) {
+	.headerTitle {
+		/*border: 5px solid red;*/
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: all;
+		/*background-color: #F0F0F0;*/
+	}
 }
 
 .title {
@@ -79,7 +102,7 @@ span {
 
 .profileAndEducation {
 	/*border: 5px solid red;*/
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 /*	display: flex;
@@ -117,6 +140,19 @@ span {
 		padding-right: 10px;
 		color: #505050;
 	}
+
+	.education h2 {
+		letter-spacing: 5px;
+		/*margin-left: 10px;*/
+		padding-left: 40px;
+	}
+
+	.education ul li {
+	  background: #D0D0D0;
+	  margin-left: 20px;
+	  margin-right: 5px;
+	  margin-bottom: 4px;
+	}
 }
 
 .profile h2 {
@@ -133,7 +169,20 @@ span {
 	padding-bottom: 30px;
 }
 
-@media (min-width: 1280px;) {
+.education h2 {
+	letter-spacing: 5px;
+	/*margin-left: 10px;*/
+	padding-left: 10px;
+}
+
+.education ul li {
+  background: #D0D0D0;
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+@media (min-width: 1280px) {
 	.education {
 		/*border: 5px solid blue;*/
 		position: relative;
@@ -144,19 +193,6 @@ span {
 	}
 }
 
-.education h2 {
-	letter-spacing: 5px;
-	/*margin-left: 10px;*/
-	padding-left: 40px;
-}
-
-.education ul li {
-  background: #D0D0D0;
-  margin-left: 20px;
-  margin-right: 5px;
-  margin-bottom: 4px;
-}
-
 .backend {
 	/*border: 5px solid green;*/
 	position: relative;
@@ -165,6 +201,33 @@ span {
 	color: #505050;
 	padding-bottom: 30px;
 }
+
+.headerTech {
+	/*border: 5px solid red;*/
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*display: flex;*/
+	justify-content: all;
+	background-color: #F0F0F0;
+}
+
+.headerTech h2 {
+	letter-spacing: 5px;
+}
+
+@media (min-width: 1280px) {
+	.headerTech {
+		/*border: 5px solid red;*/
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: all;
+		background-color: #F0F0F0;
+	}
+}
+
 
 .backend ul li {
 	margin-left: 40px;
@@ -198,12 +261,34 @@ span {
 
 .headerPortfolio {
 	/*border: 5px solid red;*/
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	display: flex;
+	/*display: flex;*/
 	justify-content: all;
 	background-color: #D0D0D0;
+}
+
+@media (min-width: 1280px) {
+	.headerPortfolio {
+		/*border: 5px solid red;*/
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: all;
+		background-color: #D0D0D0;
+	}
+
+	.deployedGit {
+		/*border: 5px solid blue;*/
+		padding-left: 40px;
+		position: relative;
+		width: 50%;
+		list-style-type: circle;
+		color: #505050;
+		padding-bottom: 30px;
+	}
 }
 
 .deployedHeroku {
@@ -230,7 +315,7 @@ span {
 
 .deployedGit {
 	/*border: 5px solid blue;*/
-	padding-left: 40px;
+	padding-left: 10px;
 	position: relative;
 	width: 50%;
 	list-style-type: circle;
@@ -252,12 +337,24 @@ span {
 
 .headerExp {
 	/*border: 5px solid red;*/
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	display: flex;
+	/*display: flex;*/
 	justify-content: all;
 	background-color: #F0F0F0;
+}
+
+@media (min-width: 1280px) {
+	.headerExp {
+		/*border: 5px solid red;*/
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: all;
+		background-color: #F0F0F0;
+	}
 }
 
 .headerExp h3 {
@@ -359,20 +456,6 @@ span {
 	display: flex;
 	justify-content: space-around;
 
-}
-
-.headerTech {
-	/*border: 5px solid red;*/
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-	justify-content: all;
-	background-color: #F0F0F0;
-}
-
-.headerTech h2 {
-	letter-spacing: 5px;
 }
 
 .frontAndBack {
