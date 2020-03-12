@@ -436,7 +436,7 @@ span #socialNetwork {
 .name {
 	color: #F0F0F0;
 	position: relative;
-	top: -480px;
+	top: -390px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -445,20 +445,20 @@ span #socialNetwork {
 
 .fName {
 	font-family: 'Anaheim', sans-serif;
-	font-size: 62px;
-	letter-spacing: 8px;
+	font-size: 31px;
+	letter-spacing: 10px;
 	margin-bottom: 0px;
 }
 
 .lName {
 	font-family: 'Wire One', sans-serif;
-	font-size: 58px;
+	font-size: 29px;
 	letter-spacing: 8px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
-.social {
+/*.social {
 	width: 18%;
 	border-radius: 30px;
 	background-color: #F0F0F0;
@@ -468,8 +468,110 @@ span #socialNetwork {
 	text-decoration: none;
 	margin-top: 14px;
 	font-size: 26px;
+}*/
+
+/*.social:hover {
+	background-color: black;
+}*/
+
+/*.social a {
+	color: #808080;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.social a:visited {
+	color: #808080;
+}
+.social a:hover {
+	color: black;
+}
+.social a:active {
+	color: black;
+}*/
+
+@media (min-width: 1280px) {
+	.name {
+		color: #F0F0F0;
+		position: relative;
+		top: -480px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		z-index: 3;
+	}
+
+	.fName {
+		font-family: 'Anaheim', sans-serif;
+		font-size: 62px;
+		letter-spacing: 8px;
+		margin-bottom: 0px;
+	}
+
+	.lName {
+		font-family: 'Wire One', sans-serif;
+		font-size: 58px;
+		letter-spacing: 8px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.social {
+		width: 18%;
+		border-radius: 30px;
+		background-color: #F0F0F0;
+		margin-right: auto;
+		margin-left: auto;
+		color: #808080;
+		text-decoration: none;
+		margin-top: 14px;
+		font-size: 26px;
+	}
+
+	/*.social:hover {
+		background-color: black;
+	}*/
+
+	.social a {
+		color: #808080;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.social a:visited {
+		color: #808080;
+	}
+	.social a:hover {
+		color: black;
+	}
+	.social a:active {
+		color: black;
+	}
 }
 
+.social {
+	width: 50%;
+	border-radius: 30px;
+	background-color: #F0F0F0;
+	margin-right: auto;
+	margin-left: auto;
+	color: #808080;
+	text-decoration: none;
+	margin-top: 14px;
+	font-size: 22px;
+}
+
+@media (min-width: 1280px) {
+	.social {
+		width: 18%;
+		border-radius: 30px;
+		background-color: #F0F0F0;
+		margin-right: auto;
+		margin-left: auto;
+		color: #808080;
+		text-decoration: none;
+		margin-top: 14px;
+		font-size: 22px;
+	}
+}
 /*.social:hover {
 	background-color: black;
 }*/
@@ -547,12 +649,25 @@ span #socialNetwork {
 .skills {
 	color: #505050;
 	position: relative;
-	top: -310px;
+	top: -180px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	font-weight: normal;
 	font-size: 30px;
+}
+
+@media (min-width: 1280px) {
+	.skills {
+		color: #505050;
+		position: relative;
+		top: -310px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		font-weight: normal;
+		font-size: 30px;
+	}	
 }
 
 .choices {
@@ -602,7 +717,7 @@ span #socialNetwork {
    /*border: 5px solid red;*/
 
    width: 1400px;
-   height: 300px;
+   height: 220px;
    margin-left: auto;
    margin-right: auto;
    /*background-image: url(assets/medellin.jpg);*/
@@ -611,6 +726,23 @@ span #socialNetwork {
    background-position: top center;
    background-attachment: fixed;
    background-size: cover;
+}
+
+@media (min-width: 1280px) {
+	#namesAndContact {
+	   /*border: 5px solid red;*/
+
+	   width: 1400px;
+	   height: 300px;
+	   margin-left: auto;
+	   margin-right: auto;
+	   /*background-image: url(assets/medellin.jpg);*/
+	   background-color: #101010;
+	   background-repeat: no-repeat;
+	   background-position: top center;
+	   background-attachment: fixed;
+	   background-size: cover;
+	}
 }
 
 #picture{
