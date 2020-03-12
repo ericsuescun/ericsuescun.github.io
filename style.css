@@ -1,6 +1,53 @@
+/* Generic Selectors */
 * {
 	box-sizing: border-box;
 	font-family: 'Archivo Narrow', sans-serif;
+}
+
+span {
+	color: white;
+	background-color: #A0A0A0;
+	border-radius: 5%;
+	padding: 2px 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.headerOne {
+	/*border: 5px solid red;*/
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: all;
+}
+
+.names {
+	/*border: 5px solid green;*/
+	position: relative;
+	width: 100%;
+}
+
+@media (min-width: 1280px) {
+	.names {
+		/*border: 5px solid green;*/
+		position: relative;
+		width: 80%;
+	}
+}
+
+.pics {
+	/*border: 5px solid blue;*/
+	display: none;
+
+}
+
+@media (min-width: 1280px) {
+	.pics {
+		display: inline-block;
+		position: relative;
+		width: 20%;
+	}
 }
 
 #photo {
@@ -8,8 +55,396 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.headerTitle {
+	/*border: 5px solid red;*/
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: all;
+	/*background-color: #F0F0F0;*/
+}
+
+.title {
+	/*border: 5px solid red;*/
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+	padding-left: 5px;
+	letter-spacing: 7px;
+	color: #505050;
+}
+
+.profileAndEducation {
+	/*border: 5px solid red;*/
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+/*	display: flex;
+	justify-content: all;*/
+	text-align: justify;
+}
+
+@media (min-width: 1280px) {
+	.profileAndEducation {
+		/*border: 5px solid red;*/
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: all;
+		text-align: justify;
+	}
+}
+
+.profile {
+	/*border: 5px solid green;*/
+	position: relative;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #505050;
+}
+
+@media (min-width: 1280px) {
+	.profile {
+		/*border: 5px solid green;*/
+		position: relative;
+		width: 50%;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #505050;
+	}
+}
+
+.profile h2 {
+	/*color: #F0F0F0;*/
+	letter-spacing: 5px;
+}
+
+.education {
+	/*border: 5px solid blue;*/
+	position: relative;
+	width: 100%;
+	list-style-type: circle;
+	color: #505050;
+	padding-bottom: 30px;
+}
+
+@media (min-width: 1280px;) {
+	.education {
+		/*border: 5px solid blue;*/
+		position: relative;
+		width: 50%;
+		list-style-type: circle;
+		color: #505050;
+		padding-bottom: 30px;
+	}
+}
+
+.education h2 {
+	letter-spacing: 5px;
+	/*margin-left: 10px;*/
+	padding-left: 40px;
+}
+
+.education ul li {
+  background: #D0D0D0;
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.backend {
+	/*border: 5px solid green;*/
+	position: relative;
+	width: 50%;
+	padding-left: 10px;
+	color: #505050;
+	padding-bottom: 30px;
+}
+
+.backend ul li {
+	margin-left: 40px;
+}
+
+.backend h2 {
+	margin-left: 40px;
+}
+
+.backend-tech {
+	display: inline-flex;
+	justify-content: all;
+}
+
+.frontend {
+	/*border: 5px solid blue;*/
+	padding-left: 10px;
+	position: relative;
+	width: 50%;
+	list-style-type: circle;
+	color: #505050;
+}
+
+.frontend ul li {
+	margin-left: 40px;
+}
+
+.frontend h2 {
+	margin-left: 40px;
+}
+
+.headerPortfolio {
+	/*border: 5px solid red;*/
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: all;
+	background-color: #D0D0D0;
+}
+
+.deployedHeroku {
+	/*border: 5px solid green;*/
+	position: relative;
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #505050;
+}
+
+.deployedHeroku a {
+	color: black;
+}
+
+.deployedHeroku a:visited {
+	color: #505050;
+}
+
+.deployedHeroku ul li {
+	margin-bottom: 15px;
+}
+
+
+.deployedGit {
+	/*border: 5px solid blue;*/
+	padding-left: 40px;
+	position: relative;
+	width: 50%;
+	list-style-type: circle;
+	color: #505050;
+	padding-bottom: 30px;
+}
+
+.deployedGit a {
+	color: black;
+}
+
+.deployedGit a:visited {
+	color: #505050;
+}
+
+.deployedGit ul li {
+	margin-bottom: 15px;
+}
+
+.headerExp {
+	/*border: 5px solid red;*/
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: all;
+	background-color: #F0F0F0;
+}
+
+.headerExp h3 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #505050;
+	margin-left: 10px;
+}
+
+.headerExp h4 {
+	color: #505050;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+.job {
+	list-style-type: none;
+}
+
+.job li {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #505050;
+	/*background-color: #D0D0D0;*/
+}
+
+.name {
+	color: #F0F0F0;
+	position: relative;
+	top: -480px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	z-index: 3;
+}
+
+.fName {
+	font-family: 'Anaheim', sans-serif;
+	font-size: 62px;
+	letter-spacing: 8px;
+	margin-bottom: 0px;
+}
+
+.lName {
+	font-family: 'Wire One', sans-serif;
+	font-size: 58px;
+	letter-spacing: 8px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.social {
+	width: 18%;
+	border-radius: 30px;
+	background-color: #F0F0F0;
+	margin-right: auto;
+	margin-left: auto;
+	color: #808080;
+	text-decoration: none;
+	margin-top: 14px;
+	font-size: 26px;
+}
+
+.social:hover {
+	background-color: black;
+}
+
+.social a {
+	color: #808080;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.social a:visited {
+	color: #808080;
+}
+.social a:hover {
+	color: orange;
+}
+.social a:active {
+	color: orange;
+}
+
+.skills {
+	color: #505050;
+	position: relative;
+	top: -310px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.choices {
+	top: -530px;
+	color: black;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
 
 }
+
+.headerTech {
+	/*border: 5px solid red;*/
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: all;
+	background-color: #F0F0F0;
+}
+
+.headerTech h2 {
+	letter-spacing: 5px;
+}
+
+.frontAndBack {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#work {
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 10px 24px;
+	border: none;
+	color: white;
+	background-color: #303030;
+}
+
+#work:hover {
+	color: #303030;
+	background-color: orange;
+}
+
+#cv {
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 10px 24px;
+	border: none;
+	color: white;
+	background-color: #303030;
+	text-decoration: none;
+}
+
+#cv:hover {
+	color: #303030;
+	background-color: orange;
+}
+
+#namesAndContact {
+   /*border: 5px solid red;*/
+
+   width: 1400px;
+   height: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url(assets/galaxy3.jpg);
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+#picture{
+    border: 5px solid white;
+    position: relative;
+    top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/fotoportafolio.jpg);
+    z-index: 2;
+}
+
+.cropcircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+}
+
+/****** CV CSS ********/
+
+
+
 
 .foto {
 		display: none;
@@ -17,7 +452,7 @@
 
 @media (min-width: 768px) {
 	.foto {
-		vertical-align: middle;
+		/*vertical-align: middle;*/
 		display: inline-block;
     	width: 21.6%;
     	height: auto;
@@ -221,6 +656,7 @@
 }
 
 .ambosNombresDatos {
+	border: 5px solid red;
 	vertical-align: middle;
 }
 
@@ -303,6 +739,7 @@
 .mitades ul li {
   background: #D0D0D0;
   margin-left: 20px;
+  margin-bottom: 4px;
 }
 
 .mitades ul {
@@ -324,7 +761,7 @@
 	background-color: #F0F0F0;
 }
 
-#referenciasLaborales {
+#referenciasLaborales, #portfolioFullstack {
 	background-color: #D0D0D0;
 }
 
@@ -341,4 +778,5 @@
 #referenciasPersonales h3 {
 	letter-spacing: 1px;
 }
+
 
