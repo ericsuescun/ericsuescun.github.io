@@ -470,9 +470,9 @@ span #socialNetwork {
 	font-size: 26px;
 }
 
-.social:hover {
+/*.social:hover {
 	background-color: black;
-}
+}*/
 
 .social a {
 	color: #808080;
@@ -483,10 +483,10 @@ span #socialNetwork {
 	color: #808080;
 }
 .social a:hover {
-	color: orange;
+	color: black;
 }
 .social a:active {
-	color: orange;
+	color: black;
 }
 
 .socialCv {
@@ -579,8 +579,8 @@ span #socialNetwork {
 }
 
 #work:hover {
-	color: #303030;
-	background-color: orange;
+	color: black;
+	background-color: #F0F0F0;
 }
 
 #cv {
@@ -594,8 +594,8 @@ span #socialNetwork {
 }
 
 #cv:hover {
-	color: #303030;
-	background-color: orange;
+	color: black;
+	background-color: #F0F0F0;
 }
 
 #namesAndContact {
@@ -605,7 +605,8 @@ span #socialNetwork {
    height: 300px;
    margin-left: auto;
    margin-right: auto;
-   background-image: url(assets/galaxy3.jpg);
+   /*background-image: url(assets/medellin.jpg);*/
+   background-color: #101010;
    background-repeat: no-repeat;
    background-position: top center;
    background-attachment: fixed;
