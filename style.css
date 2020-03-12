@@ -312,10 +312,21 @@ span #socialNetwork {
 .deployedHeroku {
 	/*border: 5px solid green;*/
 	position: relative;
-	width: 50%;
+	width: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #505050;
+}
+
+@media (min-width: 1280px) {
+	.deployedHeroku {
+		/*border: 5px solid green;*/
+		position: relative;
+		width: 50%;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #505050;
+	}
 }
 
 .deployedHeroku a {
@@ -335,10 +346,22 @@ span #socialNetwork {
 	/*border: 5px solid blue;*/
 	padding-left: 10px;
 	position: relative;
-	width: 50%;
+	width: 100%;
 	list-style-type: circle;
 	color: #505050;
 	padding-bottom: 30px;
+}
+
+@media (min-width: 1280px) {
+	.deployedGit {
+		/*border: 5px solid blue;*/
+		padding-left: 10px;
+		position: relative;
+		width: 50%;
+		list-style-type: circle;
+		color: #505050;
+		padding-bottom: 30px;
+	}
 }
 
 .deployedGit a {
