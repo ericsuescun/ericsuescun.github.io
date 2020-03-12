@@ -4,7 +4,7 @@
 	font-family: 'Archivo Narrow', sans-serif;
 }
 
-span {
+/*span {
 	color: white;
 	background-color: #A0A0A0;
 	border-radius: 5%;
@@ -12,6 +12,15 @@ span {
 	margin-right: 5px;
 	margin-left: 5px;
 }
+
+span #socialNetwork {
+	color: red;
+	background-color: #A0A0A0;
+	border-radius: 5%;
+	padding: 2px 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}*/
 
 .headerOne {
 	/*border: 5px solid red;*/
@@ -269,6 +278,15 @@ span {
 	background-color: #D0D0D0;
 }
 
+.headerPortfolio span {
+	color: white;
+	background-color: #A0A0A0;
+	border-radius: 5%;
+	padding: 2px 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
 @media (min-width: 1280px) {
 	.headerPortfolio {
 		/*border: 5px solid red;*/
@@ -376,9 +394,10 @@ span {
 
 .job li {
 	display: inline;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: #505050;
+	/*letter-spacing: 1px;*/
 	/*background-color: #D0D0D0;*/
 }
 
@@ -435,6 +454,46 @@ span {
 	color: orange;
 }
 .social a:active {
+	color: orange;
+}
+
+.socialCv {
+	width: 30%;
+	border-radius: 30px;
+	background-color: #F0F0F0;
+	margin-right: auto;
+	margin-left: auto;
+	color: #808080;
+	text-decoration: none;
+	display: inline;
+	/*margin-top: 14px;*/
+	font-size: 22px;
+}
+
+.socialCv span {
+	color: #808080;
+}
+
+.socialCv span a span:hover {
+	color: black;
+}
+
+/*.socialCv:hover {
+	background-color: black;
+}*/
+
+.socialCv span a {
+	color: #808080;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.socialCv span a:visited {
+	color: #808080;
+}
+.socialCv span a:hover {
+	color: black;
+}
+.socialCv span a:active {
 	color: orange;
 }
 
