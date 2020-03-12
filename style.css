@@ -445,14 +445,14 @@ span #socialNetwork {
 
 .fName {
 	font-family: 'Anaheim', sans-serif;
-	font-size: 31px;
+	font-size: 33px;
 	letter-spacing: 10px;
 	margin-bottom: 0px;
 }
 
 .lName {
 	font-family: 'Wire One', sans-serif;
-	font-size: 29px;
+	font-size: 31px;
 	letter-spacing: 8px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -548,7 +548,7 @@ span #socialNetwork {
 }
 
 .social {
-	width: 55%;
+	width: 60%;
 	border-radius: 30px;
 	background-color: #F0F0F0;
 	margin-right: auto;
