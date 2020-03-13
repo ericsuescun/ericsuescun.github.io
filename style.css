@@ -674,6 +674,7 @@
 	border: none;
 	color: white;
 	background-color: #303030;
+	text-decoration: none;
 }
 
 #work:hover {
