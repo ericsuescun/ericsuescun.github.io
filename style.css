@@ -269,6 +269,16 @@
 	margin-left: 5px;
 }
 
+#jumpPortfolio {
+	text-decoration: none;
+	color: #505050;
+}
+
+#jumpPortfolio:hover {
+	text-decoration: underline;
+	color: #202020;
+}
+
 @media (min-width: 1280px) {
 	.headerPortfolio {
 		/*border: 5px solid red;*/
