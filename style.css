@@ -610,7 +610,7 @@
 }
 
 .social {
-	width: 60%;
+	width: 50%;
 	border-radius: 30px;
 	background-color: #F0F0F0;
 	margin-right: auto;
@@ -618,7 +618,7 @@
 	color: #808080;
 	text-decoration: none;
 	margin-top: 14px;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 @media (min-width: 1280px) {
@@ -709,6 +709,30 @@
 	color: orange;
 }
 
+.presentation {
+	width: 30%;
+	top: -220px;
+	color: #505050;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 1280px) {
+	.presentation {
+	width: 30%;
+	top: -300px;
+	color: #505050;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
 .skills {
 	/*border: 2px solid red;*/
 	color: #505050;
@@ -787,7 +811,7 @@
 }
 
 .choices {
-	top: -340px;
+	top: -490px;
 	color: black;
 	position: relative;
 	display: flex;
@@ -797,11 +821,11 @@
 
 @media (min-width: 1280px) {
 	.choices {
-		top: -490px;
+		top: -270px;
 		color: black;
 		position: relative;
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 
 	}	
 }
@@ -815,6 +839,7 @@
 	font-size: 20px;
 	border-radius: 30px;
 	padding: 10px 24px;
+	margin-left: 20px;
 	border: none;
 	color: white;
 	background-color: #303030;
@@ -830,6 +855,7 @@
 	font-size: 20px;
 	border-radius: 30px;
 	padding: 10px 24px;
+	margin-right: 20px;
 	border: none;
 	color: white;
 	background-color: #303030;
