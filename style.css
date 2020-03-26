@@ -710,8 +710,8 @@
 }
 
 .presentation {
-	width: 30%;
-	top: -220px;
+	width: 80%;
+	top: -240px;
 	color: #505050;
 	font-size: 20px;
 	position: relative;
@@ -735,7 +735,7 @@
 }
 
 .choices {
-	top: -490px;
+	top: -250px;
 	color: black;
 	position: relative;
 	display: flex;
