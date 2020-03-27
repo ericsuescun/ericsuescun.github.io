@@ -710,8 +710,9 @@
 }
 
 .presentation {
+	/*border: 5px solid blue;*/
 	width: 80%;
-	top: -240px;
+	top: -230px;
 	color: #505050;
 	font-size: 20px;
 	position: relative;
