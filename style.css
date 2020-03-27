@@ -1439,15 +1439,10 @@
 	}
 
 	.headerPortfolio li {
-		/*border: 2px solid red;*/
 		margin-top: 1px;
 		margin-bottom: 1px;
 		page-break-inside: auto;
 		font-size: 12px;
-/*		margin-top: 0px;
-		margin-bottom: 0px;
-		padding-top: 0px;
-		padding-bottom: 0px;*/
 	}
 
 	.headerPortfolio ul li p {
@@ -1459,10 +1454,6 @@
 	}
 
 	.deployedHeroku h3 {
-/*		margin-top: 0px;
-		margin-bottom: 0px;
-		padding-top: 0px;
-		padding-bottom: 0px;*/
 	}
 
 	.deployedGit ul {
@@ -1474,10 +1465,6 @@
 	.deployedGit li {
 		/*border: 2px solid red;*/
 		font-size: 12px;
-/*		margin-top: 0px;
-		margin-bottom: 0px;
-		padding-top: 0px;
-		padding-bottom: 0px;*/
 	}
 
 	.deployedGit ul li p {
@@ -1488,20 +1475,12 @@
 	}
 
 	.deployedGit h3 {
-/*		margin-top: 0px;
-		margin-bottom: 0px;
-		padding-top: 0px;
-		padding-bottom: 0px;*/
 	}
 
 	span {
 		/*border: 2px solid green;*/
 		font-size: 12px;
 	}
-
-/*	li p {
-		display: none;
-	}*/
 
 	.experience {
 		margin-left: auto;
@@ -1546,9 +1525,6 @@
 		font-size: 12px;
 	}
 
-/*	.job li {
-		display: none;
-	}*/
 
 	.names {
 		/*border: 5px solid green;*/
@@ -1627,4 +1603,211 @@
 
 @page {
 	margin: 2cm;
+}
+
+/*******************  Portfolio  ********************/
+
+.portf {
+	/*border: 5px solid red;*/
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*display: flex;
+	justify-content: all;*/
+	text-align: justify;
+}
+
+.leftSide {
+	/*border: 5px solid green;*/
+	padding-top: 20px;
+	/*padding-left: 80px;*/
+	position: relative;
+	background-color: #505050;
+	background-image: url(assets/night.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #F0F0F0;
+	
+}
+
+.rightSide {
+	/*border: 5px solid blue;*/
+	position: relative;
+	background-color: white;
+	background-image: url(assets/ocean3.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #505050;
+}
+
+.rightSide a {
+	color: #303030;
+	/*margin-left: 10px;*/
+	margin-right: 10px;
+}
+.rightSide a:visited {
+	color: #303030;
+}
+.rightSide a:hover {
+	color: black;
+}
+.rightSide a:active {
+	color: black;
+}
+
+.portfHard {
+	margin-top: 25px;
+	/*text-align: center;*/
+}
+
+#pic{
+	display: none;
+    border: 5px solid #F0F0F0;;
+    position: relative;
+    /*top: -80px;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/fotoportafolio.jpg);
+    z-index: 2;
+}
+
+.portfSocial {
+	width: 80%;
+	/*border-radius: 30px;*/
+	/*background-color: #F0F0F0;*/
+	/*margin-right: auto;*/
+	/*margin-left: auto;*/
+	/*color: #808080;*/
+	text-decoration: none;
+	margin-top: 20px;
+	font-size: 25px;
+	/*text-align: center;*/
+}
+/*
+.portfSocial a {
+	color: red;
+}*/
+
+.portfSocial a {
+	color: #505050;
+	/*margin-left: 10px;*/
+	margin-right: 10px;
+}
+.portfSocial a:visited {
+	color: #505050;
+}
+.portfSocial a:hover {
+	color: white;
+}
+.portfSocial a:active {
+	color: white;
+}
+
+@media (min-width: 1280px) {
+	.portf {
+		/*border: 5px solid red;*/
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: all;
+		text-align: justify;
+	}
+
+	.leftSide {
+		/*border: 5px solid green;*/
+		padding-top: 20px;
+		/*padding-left: 80px;*/
+		position: relative;
+		background-color: #505050;
+		background-image: url(assets/night.jpg);
+		background-size: cover;
+		background-position: center;
+		width: 26%;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #F0F0F0;
+		
+	}
+
+	.rightSide {
+		/*border: 5px solid blue;*/
+		position: relative;
+		background-color: white;
+		background-image: url(assets/ocean3.jpg);
+		background-size: cover;
+		background-position: center;
+		width: 74%;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #505050;
+	}
+
+	.rightSide a {
+		color: #303030;
+		/*margin-left: 10px;*/
+		margin-right: 10px;
+	}
+	.rightSide a:visited {
+		color: #303030;
+	}
+	.rightSide a:hover {
+		color: black;
+	}
+	.rightSide a:active {
+		color: black;
+	}
+
+	.portfHard {
+		margin-top: 25px;
+		/*text-align: center;*/
+	}
+
+	#pic{
+	    border: 5px solid #F0F0F0;;
+	    position: relative;
+	    /*top: -80px;*/
+	    margin-left: auto;
+	    margin-right: auto;
+	    background-image: url(assets/fotoportafolio.jpg);
+	    z-index: 2;
+	}
+
+	.portfSocial {
+		width: 80%;
+		/*border-radius: 30px;*/
+		/*background-color: #F0F0F0;*/
+		/*margin-right: auto;*/
+		/*margin-left: auto;*/
+		/*color: #808080;*/
+		text-decoration: none;
+		margin-top: 20px;
+		font-size: 25px;
+		/*text-align: center;*/
+	}
+	/*
+	.portfSocial a {
+		color: red;
+	}*/
+
+	.portfSocial a {
+		color: #505050;
+		/*margin-left: 10px;*/
+		margin-right: 10px;
+	}
+	.portfSocial a:visited {
+		color: #505050;
+	}
+	.portfSocial a:hover {
+		color: white;
+	}
+	.portfSocial a:active {
+		color: white;
+	}
 }
