@@ -1770,6 +1770,7 @@
 	}
 
 	#pic{
+		display: block;
 	    border: 5px solid #F0F0F0;;
 	    position: relative;
 	    /*top: -80px;*/
