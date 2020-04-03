@@ -134,6 +134,23 @@
 	color: #505050;
 }
 
+.profile a {
+	color: #303030;
+	/*margin-left: 10px;*/
+	margin-right: 10px;
+	/*text-decoration: none;*/
+}
+.profile a:visited {
+	color: #505050;
+}
+.profile a:hover {
+	color: black;
+	text-decoration: underline;
+}
+.profile a:active {
+	color: black;
+}
+
 @media (min-width: 1280px) {
 	.profile {
 		/*border: 5px solid green;*/
